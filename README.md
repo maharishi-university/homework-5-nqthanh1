@@ -15,7 +15,7 @@
 * Create an API Gateway as REST API.
 * Create a GET method that triggers the Lambda function.
 * Deploy the API and obtain the API endpoint.
-* Test using Postman or Curl.
+* Test using Postman or Curl. 
 ## Create a DynamoDB Table
 * Create a DynamoDB table named users with:
 * Primary Key: userId (String).
@@ -29,5 +29,10 @@
 
 ## Submit screenshots demonstrating:
 * Create and deploy AWS Lambda functions.
+![Lambda](<Lambda Functions.png>)
 * Expose APIs using API Gateway.
+![API Gateway](<API Gateway.png>)
 * Store and retrieve data from DynamoDB.
+![add user](add-user.png)
+![get users](get-users-client.png)
+![get user by id](get-user-byId.png)
